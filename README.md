@@ -1,5 +1,7 @@
 # tailwind-reactions
 
+[![npm version](https://badge.fury.io/js/@jill64%2Ftailwind-reactions.svg)](https://badge.fury.io/js/@jill64%2Ftailwind-reactions)
+
 UI effect set for TailwindCSS
 
 ## Install
