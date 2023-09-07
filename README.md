@@ -1,5 +1,7 @@
 # tailwind-reactions
 
+[![npm version](https://badge.fury.io/js/@jill64%2Ftailwind-reactions.svg)](https://badge.fury.io/js/@jill64%2Ftailwind-reactions)
+
 UI effect set for TailwindCSS
 
 ## Install
@@ -50,15 +52,15 @@ You can configure which values are available for this plugin under the `focusUnd
 ```js
 // tailwind.config.js
 module.exports = {
-	theme: {
-		extend: {
-			focusUnderWidth: {
-				5: '5'
-				6: '6'
-				7: '7'
-			}
-		}
-	}
+  theme: {
+    extend: {
+      focusUnderWidth: {
+        5: '5'
+        6: '6'
+        7: '7'
+      }
+    }
+  }
 }
 ```
 
