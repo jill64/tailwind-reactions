@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "2.0.3",
-    "@sveltejs/kit": "1.25.0",
+    "@sveltejs/kit": "1.25.1",
     "autoprefixer": "10.4.16",
     "postcss": "8.4.30",
     "postcss-load-config": "4.0.1",
