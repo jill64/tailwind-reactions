@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       tailwindcss:
-        specifier: ^3.3.3
+        specifier: 3.3.3
         version: 3.3.3
     devDependencies:
       '@typescript-eslint/eslint-plugin':
