@@ -1,6 +1,6 @@
 {
   "name": "@jill64/tailwind-reactions",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "description": "UI effect set for TailwindCSS",
   "main": "dist/index.js",
   "license": "MIT",
@@ -31,6 +31,7 @@
   "scripts": {
     "build": "pnpm -r build && npx publint",
     "check": "cd packages/site && pnpm check",
+    "prepack": "npm run build",
     "format": "npx prettier --write . --plugin prettier-plugin-svelte .",
     "lint": "npx prettier --check . --plugin prettier-plugin-svelte . && npx eslint"
   },
