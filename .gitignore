@@ -4,3 +4,4 @@ build
 .svelte-kit
 dist
 .env
+package-lock.json
