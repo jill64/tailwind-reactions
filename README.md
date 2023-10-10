@@ -1,6 +1,7 @@
 # tailwind-reactions
 
-[![npm version](https://badge.fury.io/js/@jill64%2Ftailwind-reactions.svg)](https://badge.fury.io/js/@jill64%2Ftailwind-reactions)
+[![npm](https://img.shields.io/npm/v/%40jill64%2Ftailwind-reactions)](https://npmjs.com/package/@jill64/tailwind-reactions)
+[![CI](https://github.com/jill64/tailwind-reactions/actions/workflows/ci.yml/badge.svg)](https://github.com/jill64/tailwind-reactions/actions/workflows/ci.yml)
 
 UI effect set for TailwindCSS
 
