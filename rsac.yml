@@ -4,4 +4,3 @@ branch-protection:
       contexts:
         - check / check
         - publish-pagese / publish-pages
-        
