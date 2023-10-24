@@ -18,25 +18,14 @@ importers:
       '@typescript-eslint/parser':
         specifier: 6.9.0
         version: 6.9.0(eslint@8.52.0)(typescript@5.2.2)
-      eslint-config-prettier:
-        specifier: 9.0.0
-        version: 9.0.0(eslint@8.52.0)
       eslint-plugin-deprecation:
         specifier: 2.0.0
         version: 2.0.0(eslint@8.52.0)(typescript@5.2.2)
-      eslint-plugin-svelte:
-        specifier: 2.34.0
-        version: 2.34.0(eslint@8.52.0)(svelte@4.2.2)
-      prettier-plugin-svelte:
-        specifier: 3.0.3
-        version: 3.0.3(prettier@3.0.3)(svelte@4.2.2)
       typescript:
         specifier: 5.2.2
         version: 5.2.2
 
-  packages/lib: {}
-
-  packages/site:
+  demo:
     devDependencies:
       '@sveltejs/adapter-static':
         specifier: 2.0.3
@@ -47,18 +36,24 @@ importers:
       autoprefixer:
         specifier: 10.4.16
         version: 10.4.16(postcss@8.4.31)
+      eslint-config-prettier:
+        specifier: 9.0.0
+        version: 9.0.0(eslint@8.52.0)
+      eslint-plugin-svelte:
+        specifier: 2.34.0
+        version: 2.34.0(eslint@8.52.0)(svelte@4.2.2)
       postcss:
         specifier: 8.4.31
         version: 8.4.31
       postcss-load-config:
         specifier: 4.0.1
         version: 4.0.1(postcss@8.4.31)
+      prettier-plugin-svelte:
+        specifier: 3.0.3
+        version: 3.0.3(prettier@3.0.3)(svelte@4.2.2)
       svelte:
         specifier: 4.2.2
         version: 4.2.2
-      tslib:
-        specifier: 2.6.2
-        version: 2.6.2
       vite:
         specifier: 4.5.0
         version: 4.5.0
