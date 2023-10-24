@@ -3,17 +3,21 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
-    "preview": "pnpm build && vite preview",
+    "preview": "npm run build && vite preview",
+    "lint": "npx prettier --check . --plugin prettier-plugin-svelte . && npx eslint . && npm run check",
+    "format": "npx prettier --write . --plugin prettier-plugin-svelte . ",
     "check": "svelte-kit sync && npx svelte-check"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "2.0.3",
     "@sveltejs/kit": "1.27.0",
     "autoprefixer": "10.4.16",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-plugin-svelte": "2.34.0",
+    "prettier-plugin-svelte": "3.0.3",
     "postcss": "8.4.31",
     "postcss-load-config": "4.0.1",
     "svelte": "4.2.2",
-    "tslib": "2.6.2",
     "vite": "4.5.0"
   }
 }

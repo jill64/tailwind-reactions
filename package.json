@@ -1,6 +1,6 @@
 {
   "name": "@jill64/tailwind-reactions",
-  "version": "0.1.15",
+  "version": "1.0.0",
   "description": "UI effect set for TailwindCSS",
   "main": "dist/index.js",
   "license": "MIT",
@@ -29,22 +29,29 @@
     "effect"
   ],
   "scripts": {
-    "build": "pnpm -r build && npx publint",
-    "check": "cd packages/site && pnpm check",
-    "prepack": "pnpm build",
-    "format": "npx prettier --write . --plugin prettier-plugin-svelte .",
-    "lint": "npx prettier --check . --plugin prettier-plugin-svelte . && npx eslint && pnpm check"
+    "dev": "cd demo && npm run dev",
+    "build": "npm run build:lib && npm run build:demo && npx publint",
+    "build:lib": "tsc",
+    "build:demo": "cd demo && npm run build",
+    "preview": "npm run build:lib && cd demo && npm run preview",
+    "test:e2e": "npx playwright install --with-deps && npx playwright test",
+    "prepack": "npm run build",
+    "format": "npm run format:lib && npm run format:demo",
+    "format:lib": "npx prettier --write .",
+    "format:demo": "cd demo && npm run format",
+    "lint": "npm run lint:lib && npm run lint:demo",
+    "lint:lib": "npx prettier --check . && npx eslint .",
+    "lint:demo": "cd demo && npm run lint",
+    "check": "cd packages/site && pnpm check"
   },
   "peerDependencies": {
     "tailwindcss": "^3.0.0"
   },
   "devDependencies": {
+    "@playwright/test": "1.39.0",
     "@typescript-eslint/eslint-plugin": "6.9.0",
     "@typescript-eslint/parser": "6.9.0",
-    "eslint-config-prettier": "9.0.0",
     "eslint-plugin-deprecation": "2.0.0",
-    "eslint-plugin-svelte": "2.34.0",
-    "prettier-plugin-svelte": "3.0.3",
     "typescript": "5.2.2"
   },
   "dependencies": {

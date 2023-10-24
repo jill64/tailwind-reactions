@@ -1,9 +1,12 @@
+<!----- BEGIN GHOST DOCS HEADER ----->
+
 # tailwind-reactions
 
-[![npm](https://img.shields.io/npm/v/%40jill64%2Ftailwind-reactions)](https://npmjs.com/package/@jill64/tailwind-reactions)
-[![CI](https://github.com/jill64/tailwind-reactions/actions/workflows/ci.yml/badge.svg)](https://github.com/jill64/tailwind-reactions/actions/workflows/ci.yml)
+[![npm-version](https://img.shields.io/npm/v/@jill64/tailwind-reactions)](https://npmjs.com/package/@jill64/tailwind-reactions) [![npm-license](https://img.shields.io/npm/l/@jill64/tailwind-reactions)](https://npmjs.com/package/@jill64/tailwind-reactions) [![npm-download-month](https://img.shields.io/npm/dm/@jill64/tailwind-reactions)](https://npmjs.com/package/@jill64/tailwind-reactions) [![npm-min-size](https://img.shields.io/bundlephobia/min/@jill64/tailwind-reactions)](https://npmjs.com/package/@jill64/tailwind-reactions) [![deploy.yml](https://github.com/jill64/tailwind-reactions/actions/workflows/deploy.yml/badge.svg)](https://github.com/jill64/tailwind-reactions/actions/workflows/deploy.yml)
 
 UI effect set for TailwindCSS
+
+<!----- END GHOST DOCS HEADER ----->
 
 ## Install
 
