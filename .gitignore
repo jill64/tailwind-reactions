@@ -5,3 +5,4 @@ build
 dist
 .env
 package-lock.json
+pnpm-lock.yaml

@@ -1,9 +1,5 @@
-# tailwind-reactions
-
-[![npm](https://img.shields.io/npm/v/%40jill64%2Ftailwind-reactions)](https://npmjs.com/package/@jill64/tailwind-reactions)
-[![CI](https://github.com/jill64/tailwind-reactions/actions/workflows/ci.yml/badge.svg)](https://github.com/jill64/tailwind-reactions/actions/workflows/ci.yml)
-
-UI effect set for TailwindCSS
+<!----- BEGIN GHOST DOCS HEADER ----->
+<!----- END GHOST DOCS HEADER ----->
 
 ## Install
 
