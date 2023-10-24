@@ -4,7 +4,9 @@
 
 <header class="flex items-center justify-between mx-4">
   <h1 class="text-4xl font-bold my-4">tailwind-reactions</h1>
-  <a class="hover:underline" href="https://github.com/jill64/tailwind-reactions">GitHub</a>
+  <a class="hover:underline" href="https://github.com/jill64/tailwind-reactions"
+    >GitHub</a
+  >
 </header>
 <button class="push-effect bg-blue-500 text-white px-4 py-2 mx-4 rounded-full">
   push-effect
