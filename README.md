@@ -9,7 +9,6 @@ UI effect set for TailwindCSS
 ## [Demo](https://jill64.github.io/tailwind-reactions/)
 
 ## Install
-
 ```sh
 npm i @jill64/tailwind-reactions
 ```
