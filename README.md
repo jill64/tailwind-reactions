@@ -8,11 +8,7 @@ UI effect set for TailwindCSS
 
 <!----- END GHOST DOCS HEADER ----->
 
-## Install
-
-```sh
-npm i @jill64/tailwind-reactions
-```
+## Setup
 
 ```js
 // tailwind.config.js
@@ -49,7 +45,7 @@ module.exports = {
 />
 ```
 
-## Configuration
+## Additional Configuration
 
 You can configure which values are available for this plugin under the `focusUnderWidth` key in your `tailwind.config.js` file:
 
