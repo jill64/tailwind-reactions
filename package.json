@@ -8,7 +8,9 @@
   "bugs": "https://github.com/jill64/tailwind-reactions/issues",
   "homepage": "https://github.com/jill64/tailwind-reactions#readme",
   "files": [
-    "dist"
+    "dist",
+    "!*.test.*",
+    "!*.spec.*"
   ],
   "exports": {
     ".": {
@@ -24,9 +26,7 @@
     "url": "https://github.com/jill64/tailwind-reactions.git"
   },
   "keywords": [
-    "tailwindcss",
-    "ui",
-    "effect"
+    "tailwindcss"
   ],
   "scripts": {
     "dev": "cd demo && npm run dev",
