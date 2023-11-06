@@ -4,7 +4,7 @@
     "dev": "vite dev",
     "build": "vite build",
     "preview": "npm run build && vite preview",
-    "lint": "npx eslint . && npm run check",
+    "lint": "npm run check && npx eslint .",
     "format": "npx prettier --write . --plugin prettier-plugin-svelte . ",
     "check": "svelte-kit sync && npx svelte-check"
   },
