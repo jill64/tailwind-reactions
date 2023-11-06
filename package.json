@@ -8,7 +8,9 @@
   "bugs": "https://github.com/jill64/tailwind-reactions/issues",
   "homepage": "https://github.com/jill64/tailwind-reactions#readme",
   "files": [
-    "dist"
+    "dist",
+    "!*.test.*",
+    "!*.spec.*"
   ],
   "exports": {
     ".": {
@@ -24,9 +26,7 @@
     "url": "https://github.com/jill64/tailwind-reactions.git"
   },
   "keywords": [
-    "tailwindcss",
-    "ui",
-    "effect"
+    "tailwindcss"
   ],
   "scripts": {
     "dev": "cd demo && npm run dev",
@@ -49,8 +49,8 @@
   },
   "devDependencies": {
     "@playwright/test": "1.39.0",
-    "@typescript-eslint/eslint-plugin": "6.9.1",
-    "@typescript-eslint/parser": "6.9.1",
+    "@typescript-eslint/eslint-plugin": "6.10.0",
+    "@typescript-eslint/parser": "6.10.0",
     "eslint-plugin-deprecation": "2.0.0",
     "typescript": "5.2.2"
   },
