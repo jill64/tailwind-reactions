@@ -29,7 +29,7 @@ importers:
   demo:
     devDependencies:
       '@jill64/sentry-sveltekit-cloudflare':
-        specifier: ^1.0.0
+        specifier: 1.0.0
         version: 1.0.0(@sveltejs/kit@1.27.4)
       '@sveltejs/adapter-cloudflare':
         specifier: 2.3.3
