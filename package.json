@@ -1,6 +1,6 @@
 {
   "name": "@jill64/tailwind-reactions",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "🌀 UI effect set for TailwindCSS",
   "main": "dist/index.js",
   "license": "MIT",
