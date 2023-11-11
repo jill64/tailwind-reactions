@@ -1,44 +1,29 @@
 <script lang="ts">
   import '../app.postcss'
+  import GitHubLogo from './GitHubLogo.svelte'
 </script>
 
-<header class="flex items-center justify-between mx-4">
-  <h1 class="text-4xl font-bold my-4">tailwind-reactions</h1>
-  <a class="hover:underline" href="https://github.com/jill64/tailwind-reactions"
-    >GitHub</a
-  >
-</header>
-<button class="push-effect bg-blue-500 text-white px-4 py-2 mx-4 rounded-full">
-  push-effect
-</button>
-<button class="pop-effect bg-blue-500 text-white px-4 py-2 rounded-full">
-  pop-effect
-</button>
-<div class="m-4">
-  <div class="inline-grid grid-cols-2 items-center gap-4">
-    <input
-      placeholder="focus-under"
-      class="focus-under bg-inherit text-inherit border-zinc-400 focus:border-blue-600"
-    />
-    <input
-      placeholder="focus-under-bold"
-      class="focus-under-bold bg-inherit text-inherit border-zinc-400 focus:border-blue-600"
-    />
-    <input
-      placeholder="focus-under-2"
-      class=" focus-under-2 bg-inherit text-inherit border-zinc-400 focus:border-blue-600"
-    />
-    <input
-      placeholder="focus-under-bold-2"
-      class="focus-under-bold-2 bg-inherit text-inherit border-zinc-400 focus:border-blue-600"
-    />
-    <input
-      placeholder="focus-under-3"
-      class=" focus-under-3 bg-inherit text-inherit border-zinc-400 focus:border-blue-600"
-    />
-    <input
-      placeholder="focus-under-bold-3"
-      class="focus-under-bold-3 bg-inherit text-inherit border-zinc-400 focus:border-blue-600"
-    />
+<header class="flex items-center justify-between py-2 px-4">
+  <div>
+    <h1 class="text-4xl font-bold my-4">@jill64/tailwind-reactions</h1>
+    <p class="text-lg">🌀 UI effect set for Tailwind CSS</p>
   </div>
-</div>
+  <a href="https://github.com/jill64/tailwind-reactions">
+    <GitHubLogo />
+  </a>
+</header>
+
+<main class="p-4">
+  <button class="push-effect"> push-effect </button>
+  <button class="pop-effect"> pop-effect </button>
+  <div class="m-4">
+    <div class="inline-grid grid-cols-2 items-center gap-4">
+      <input placeholder="focus-under" class="focus-under" />
+      <input placeholder="focus-under-bold" class="focus-under-bold" />
+      <input placeholder="focus-under-2" class="focus-under-2" />
+      <input placeholder="focus-under-bold-2" class="focus-under-bold-2" />
+      <input placeholder="focus-under-3" class="focus-under-3" />
+      <input placeholder="focus-under-bold-3" class="focus-under-bold-3" />
+    </div>
+  </div>
+</main>
