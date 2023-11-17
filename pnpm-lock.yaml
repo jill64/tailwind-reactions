@@ -29,8 +29,8 @@ importers:
   demo:
     devDependencies:
       '@jill64/sentry-sveltekit-cloudflare':
-        specifier: 1.2.0
-        version: 1.2.0(@sveltejs/kit@1.27.6)
+        specifier: 1.3.2
+        version: 1.3.2(@sveltejs/kit@1.27.6)
       '@sveltejs/adapter-cloudflare':
         specifier: 2.3.3
         version: 2.3.3(@sveltejs/kit@1.27.6)
@@ -711,10 +711,10 @@ packages:
       }
     dev: true
 
-  /@jill64/sentry-sveltekit-cloudflare@1.2.0(@sveltejs/kit@1.27.6):
+  /@jill64/sentry-sveltekit-cloudflare@1.3.2(@sveltejs/kit@1.27.6):
     resolution:
       {
-        integrity: sha512-7BNJyDjPFvERNSCWOodTDo99RlttVs4fEEUQgv7gb8DgIYKfB8pVobaaPSZSnIu4blDAsmkEa2lw7PlJalYo5A==
+        integrity: sha512-dUH7dzeISOiCXlOiDbVTBB9L6uop5xGvZj1ozQjeg4bovenQmQDd/itAi/QL/hccL7KekCYNk+N9z1Qp/VeTbw==
       }
     peerDependencies:
       '@sveltejs/kit': ^1.0.0
