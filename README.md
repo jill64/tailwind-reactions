@@ -6,6 +6,8 @@
 
 🌀 UI effect set for Tailwind CSS
 
+## [Demo](https://tailwind-reactions.jill64.dev)
+
 ## Installation
 
 ```sh
