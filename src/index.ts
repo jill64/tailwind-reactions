@@ -1,4 +1,4 @@
-import plugin from 'tailwindcss/plugin'
+import plugin from 'tailwindcss/plugin.js'
 
 const focusUnder = (n: string, adding = 1) => ({
   'margin-bottom': `${adding}px`,
@@ -72,4 +72,4 @@ const reactions = plugin(
   }
 )
 
-export = reactions
+export default reactions

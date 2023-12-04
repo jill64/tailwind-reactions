@@ -1,5 +1,5 @@
 import { Config } from 'tailwindcss'
-import * as effect from '../dist/index.js'
+import effect from '../dist/index.js'
 
 const config = {
   content: ['./src/**/*.{html,js,svelte,ts}'],

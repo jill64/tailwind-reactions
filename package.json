@@ -4,6 +4,7 @@
   "description": "🌀 UI effect set for Tailwind CSS",
   "main": "dist/index.js",
   "license": "MIT",
+  "type": "module",
   "author": "jill64 <intents.turrets0h@icloud.com> (https://github.com/jill64)",
   "bugs": "https://github.com/jill64/tailwind-reactions/issues",
   "homepage": "https://github.com/jill64/tailwind-reactions#readme",
@@ -32,7 +33,7 @@
     "ui"
   ],
   "scripts": {
-    "dev": "cd demo && pnpm dev",
+    "dev": "pnpm build:lib && cd demo && pnpm dev",
     "build": "pnpm build:lib && pnpm build:demo && npx publint",
     "build:lib": "tsc",
     "build:demo": "cd demo && pnpm build",
@@ -50,11 +51,12 @@
   "peerDependencies": {
     "tailwindcss": "^3.0.0"
   },
+  "prettier": "@jill64/prettier-config",
   "devDependencies": {
+    "@jill64/eslint-config-ts": "0.1.5",
+    "@jill64/playwright-config": "0.0.1",
+    "@jill64/prettier-config": "0.0.2",
     "@playwright/test": "1.40.1",
-    "@typescript-eslint/eslint-plugin": "6.13.1",
-    "@typescript-eslint/parser": "6.13.1",
-    "eslint-plugin-deprecation": "2.0.0",
     "tailwindcss": "3.3.5",
     "typescript": "5.3.2"
   }
