@@ -1,13 +1,17 @@
 <script lang="ts">
+  import { FlipButton, ThemeManager } from '@jill64/svelte-dark-theme'
   import '../app.postcss'
   import GitHubLogo from './GitHubLogo.svelte'
 </script>
 
+<ThemeManager />
+
 <header class="flex items-center justify-between py-2 px-4">
-  <div>
+  <div class="mr-auto">
     <h1 class="text-4xl font-bold my-4">@jill64/tailwind-reactions</h1>
     <p class="text-lg">🌀 UI effect set for Tailwind CSS</p>
   </div>
+  <FlipButton />
   <a href="https://github.com/jill64/tailwind-reactions">
     <GitHubLogo />
   </a>
