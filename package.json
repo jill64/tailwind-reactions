@@ -58,6 +58,6 @@
     "@jill64/prettier-config": "1.0.0",
     "@playwright/test": "1.40.1",
     "tailwindcss": "3.3.6",
-    "typescript": "5.3.2"
+    "typescript": "5.3.3"
   }
 }
