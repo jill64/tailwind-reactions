@@ -30,8 +30,8 @@ importers:
   demo:
     devDependencies:
       '@jill64/eslint-config-svelte':
-        specifier: 1.0.0
-        version: 1.0.0(svelte@4.2.8)(typescript@5.3.3)
+        specifier: 1.0.1
+        version: 1.0.1(svelte@4.2.8)(typescript@5.3.3)
       '@jill64/sentry-sveltekit-cloudflare':
         specifier: 1.5.0
         version: 1.5.0(@sveltejs/kit@1.27.7)(svelte@4.2.8)
@@ -567,13 +567,15 @@ packages:
     resolution: {integrity: sha512-eHAN3A6DJXXiaIf7TFcjnj35thBNFRFwo6kXkKyoO3WqZaUDKXXyTZdL7TfWWvkKRrP1HwZY2rbLw9C9XNc0nw==}
     dev: true
 
-  /@jill64/eslint-config-svelte@1.0.0(svelte@4.2.8)(typescript@5.3.3):
-    resolution: {integrity: sha512-iPwQC2IJJ4+RPB1S0W1jakJadCRWQDFZ+FTaf/YUPL5X606DBiUG9vbGnxFm7LPoEtt5DAEh1itFNbyn86tTeg==}
+  /@jill64/eslint-config-svelte@1.0.1(svelte@4.2.8)(typescript@5.3.3):
+    resolution: {integrity: sha512-54oSkmqSrPhd755Rmo/EYO+rRgeKAtdwWLcEUqB16651PXiCpxcE9qH2NIK1g7+Qy9PTBqlbnKzvhf9Rx8ZyMA==}
     peerDependencies:
       svelte: ^4.0.0
     dependencies:
       '@eslint/js': 8.55.0
       '@types/eslint': 8.44.8
+      '@types/eslint-config-prettier': 6.11.3
+      '@types/eslint__js': 8.42.3
       '@typescript-eslint/eslint-plugin': 6.13.2(@typescript-eslint/parser@6.13.2)(eslint@8.55.0)(typescript@5.3.3)
       '@typescript-eslint/parser': 6.13.2(eslint@8.55.0)(typescript@5.3.3)
       eslint: 8.55.0
