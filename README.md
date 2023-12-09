@@ -8,12 +8,6 @@
 
 ## [Demo](https://tailwind-reactions.jill64.dev)
 
-## Installation
-
-```sh
-npm i @jill64/tailwind-reactions
-```
-
 <!----- END GHOST DOCS HEADER ----->
 
 ## Setup
