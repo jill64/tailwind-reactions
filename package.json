@@ -5,7 +5,12 @@
   "main": "dist/index.js",
   "license": "MIT",
   "type": "module",
-  "author": "jill64 <intents.turrets0h@icloud.com> (https://github.com/jill64)",
+  "author": {
+    "name": "jill64",
+    "email": "143883742+jill64@users.noreply.github.com",
+    "url": "https://github.com/jill64",
+    "image": "https://avatars.githubusercontent.com/u/143883742?v=4"
+  },
   "bugs": "https://github.com/jill64/tailwind-reactions/issues",
   "homepage": "https://github.com/jill64/tailwind-reactions#readme",
   "files": [
@@ -24,7 +29,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jill64/tailwind-reactions.git"
+    "url": "https://github.com/jill64/tailwind-reactions.git",
+    "image": "https://opengraph.githubassets.com/716dfbfa96b595afb6c26c5b4af4ba1a065a0e8b32a5546b03072e68b8e03606/jill64/tailwind-reactions"
   },
   "keywords": [
     "effect",
