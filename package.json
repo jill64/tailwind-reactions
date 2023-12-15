@@ -47,7 +47,7 @@
     "test": "playwright test",
     "prepack": "pnpm build",
     "format": "pnpm format:lib && pnpm format:demo",
-    "format:lib": "npx prettier --write .",
+    "format:lib": "npx prettier -w .",
     "format:demo": "cd demo && pnpm format",
     "lint": "pnpm lint:lib && pnpm lint:demo",
     "lint:lib": "npx eslint .",
