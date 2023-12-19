@@ -1,13 +1,13 @@
 {
   "name": "@jill64/tailwind-reactions",
-  "version": "1.2.5",
+  "version": "1.2.4",
   "description": "🌀 UI effect set for Tailwind CSS",
   "main": "dist/index.js",
   "license": "MIT",
   "type": "module",
   "author": {
     "name": "jill64",
-    "email": "143883742+jill64@users.noreply.github.com",
+    "email": "intents.turrets0h@icloud.com",
     "url": "https://github.com/jill64",
     "image": "https://avatars.githubusercontent.com/u/143883742?v=4"
   },
