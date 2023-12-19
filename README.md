@@ -72,3 +72,11 @@ Alternatively, you can use square bracket notation.
 | ---------------------- | ---------------------- |
 | `focus-under-[n]`      | `border-bottom: [n]px` |
 | `focus-under-bold-[n]` | `border-bottom: [n]px` |
+
+<!----- BEGIN GHOST DOCS FOOTER ----->
+
+## License
+
+MIT
+
+<!----- END GHOST DOCS FOOTER ----->
