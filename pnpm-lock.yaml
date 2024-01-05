@@ -42,8 +42,8 @@ importers:
         specifier: 1.0.13
         version: 1.0.13
       '@jill64/universal-sanitizer':
-        specifier: 1.0.1
-        version: 1.0.1
+        specifier: 1.0.2
+        version: 1.0.2
       '@sveltejs/adapter-cloudflare':
         specifier: 3.0.1
         version: 3.0.1(@sveltejs/kit@2.0.6)
@@ -561,15 +561,6 @@ packages:
       '@types/dompurify': 3.0.5
       '@types/sanitize-html': 2.9.5
       dompurify: 3.0.6
-      sanitize-html: 2.11.0
-    dev: true
-
-  /@jill64/universal-sanitizer@1.0.1:
-    resolution: {integrity: sha512-EpMhN7TOgjHiw1Cgnf6Ghzg0ptLds+SWGllSWEgETHBwtOp5EY78U8iPMg04S8qcETZmnvsfv9JwR9Dawr7r5A==}
-    dependencies:
-      '@types/dompurify': 3.0.5
-      '@types/sanitize-html': 2.9.5
-      dompurify: 3.0.7
       sanitize-html: 2.11.0
     dev: true
 
@@ -1406,10 +1397,6 @@ packages:
 
   /dompurify@3.0.6:
     resolution: {integrity: sha512-ilkD8YEnnGh1zJ240uJsW7AzE+2qpbOUYjacomn3AvJ6J4JhKGSZ2nh4wUIXPZrEPppaCLx5jFe8T89Rk8tQ7w==}
-    dev: true
-
-  /dompurify@3.0.7:
-    resolution: {integrity: sha512-BViYTZoqP3ak/ULKOc101y+CtHDUvBsVgSxIF1ku0HmK6BRf+C03MC+tArMvOPtVtZp83DDh5puywKDu4sbVjQ==}
     dev: true
 
   /dompurify@3.0.8:
