@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@jill64/eslint-config-svelte": "1.0.12",
-    "@jill64/npm-demo-layout": "1.0.31",
+    "@jill64/npm-demo-layout": "1.0.32",
     "@jill64/universal-sanitizer": "1.0.2",
     "@jill64/sentry-sveltekit-cloudflare": "1.7.1",
     "@jill64/svelte-tailwind": "1.0.14",
