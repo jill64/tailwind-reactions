@@ -42,8 +42,8 @@ importers:
         specifier: 1.0.22
         version: 1.0.22
       '@jill64/universal-sanitizer':
-        specifier: 1.1.1
-        version: 1.1.1
+        specifier: 1.2.0
+        version: 1.2.0
       '@sveltejs/adapter-cloudflare':
         specifier: 4.1.0
         version: 4.1.0(@sveltejs/kit@2.5.0)
@@ -562,16 +562,6 @@ packages:
     resolution: {integrity: sha512-X14We39hqD+oLhR3hHlcZaWhOSFT6ww4Uy6fqev+BjOlBHvR+XgB4kZw3D2hLookL8r5N5lQFx+ly2hrdhKKKg==}
     dependencies:
       ts-serde: 1.0.2
-    dev: true
-
-  /@jill64/universal-sanitizer@1.1.1:
-    resolution: {integrity: sha512-kYCsFB8hitf20Ti/FuQxdrr7QiyXzWB1rSfTJHliecuehjnFopUW2TjMKUy2tP7Ej9tOxVrZRVJkVuswc571oA==}
-    dependencies:
-      '@types/dompurify': 3.0.5
-      '@types/sanitize-html': 2.11.0
-      dompurify: 3.0.8
-      postcss: 8.4.33
-      sanitize-html: 2.11.0
     dev: true
 
   /@jill64/universal-sanitizer@1.2.0:
