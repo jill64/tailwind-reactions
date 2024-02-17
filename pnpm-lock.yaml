@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@jill64/eslint-config-ts':
-        specifier: 1.1.1
-        version: 1.1.1(typescript@5.3.3)
+        specifier: 1.1.2
+        version: 1.1.2(typescript@5.3.3)
       '@jill64/playwright-config':
         specifier: 2.2.3
         version: 2.2.3(@playwright/test@1.41.2)
@@ -373,11 +373,12 @@ packages:
       - typescript
     dev: true
 
-  /@jill64/eslint-config-ts@1.1.1(typescript@5.3.3):
-    resolution: {integrity: sha512-kMlEKszRzibSZlMztYa6eHlIv+CP64VRjkntUuSHRHZcqnjlxTDkuoWl/li+8DCzwPc/kszs28cRj6wD9t/JwQ==}
+  /@jill64/eslint-config-ts@1.1.2(typescript@5.3.3):
+    resolution: {integrity: sha512-JY5eluWxzyNlSwB6pJcmhsv1rA/yxeWv5T8WkQRa7cDnyL2+CVd5iCIb5NVH/8PY8V/l45Xro2Q1tuKF5h3FKQ==}
     dependencies:
       '@eslint/js': 8.56.0
       '@types/eslint': 8.56.2
+      '@types/eslint-config-prettier': 6.11.3
       '@typescript-eslint/eslint-plugin': 7.0.1(@typescript-eslint/parser@7.0.1)(eslint@8.56.0)(typescript@5.3.3)
       '@typescript-eslint/parser': 7.0.1(eslint@8.56.0)(typescript@5.3.3)
       eslint: 8.56.0
@@ -932,6 +933,10 @@ packages:
     resolution: {integrity: sha512-1Wg0g3BtQF7sSb27fJQAKck1HECM6zV1EB66j8JH9i3LCjYabJa0FSdiSgsD5K/RbrsR0SiraKacLB+T8ZVYAg==}
     dependencies:
       '@types/trusted-types': 2.0.7
+    dev: true
+
+  /@types/eslint-config-prettier@6.11.3:
+    resolution: {integrity: sha512-3wXCiM8croUnhg9LdtZUJQwNcQYGWxxdOWDjPe1ykCqJFPVpzAKfs/2dgSoCtAvdPeaponcWPI7mPcGGp9dkKQ==}
     dev: true
 
   /@types/eslint@8.56.2:
