@@ -39,8 +39,8 @@ importers:
         specifier: 1.7.8
         version: 1.7.8(@sveltejs/kit@2.5.4)(svelte@4.2.12)
       '@jill64/svelte-tailwind':
-        specifier: 1.2.15
-        version: 1.2.15
+        specifier: 1.2.16
+        version: 1.2.16
       '@jill64/universal-sanitizer':
         specifier: 1.2.7
         version: 1.2.7
@@ -714,15 +714,15 @@ packages:
       svelte: 4.2.12
     dev: true
 
-  /@jill64/svelte-tailwind@1.2.15:
-    resolution: {integrity: sha512-jYLyNue8bqT5SbSsoZG8HK6pNynWvhAhUCDsBuCbKx2aIa8FbwZti/M+BcKtBkJj86CCPhYS50mwSg0oM+si2A==}
+  /@jill64/svelte-tailwind@1.2.16:
+    resolution: {integrity: sha512-vny9f+zsmXJg0Y8URzBqO3ifcE//jUZ399LAkApS5QXRa34Y+bi1yYIBOd9ifCthoWQAE1GG/UXJoEI75o5+Zg==}
     dependencies:
-      '@jill64/tailwind-grid-auto': 1.3.17(tailwindcss@3.4.2)
-      '@jill64/tailwind-reactions': 1.2.16(tailwindcss@3.4.2)
+      '@jill64/tailwind-grid-auto': 1.3.17(tailwindcss@3.4.3)
+      '@jill64/tailwind-reactions': 1.2.16(tailwindcss@3.4.3)
       autoprefixer: 10.4.19(postcss@8.4.38)
       postcss: 8.4.38
       postcss-load-config: 5.0.3(postcss@8.4.38)
-      tailwindcss: 3.4.2
+      tailwindcss: 3.4.3
     transitivePeerDependencies:
       - jiti
       - ts-node
@@ -741,20 +741,20 @@ packages:
       - '@sveltejs/kit'
     dev: true
 
-  /@jill64/tailwind-grid-auto@1.3.17(tailwindcss@3.4.2):
+  /@jill64/tailwind-grid-auto@1.3.17(tailwindcss@3.4.3):
     resolution: {integrity: sha512-R96J2RU4QvudCjtnqCuVrkgLaShSdC+U4yNNHWRtNfUlUGpmScvSYUQpz9K7vMb2YkOz5JWxKCPztWbeo0vhxg==}
     peerDependencies:
       tailwindcss: ^3.0.0
     dependencies:
-      tailwindcss: 3.4.2
+      tailwindcss: 3.4.3
     dev: true
 
-  /@jill64/tailwind-reactions@1.2.16(tailwindcss@3.4.2):
+  /@jill64/tailwind-reactions@1.2.16(tailwindcss@3.4.3):
     resolution: {integrity: sha512-FeYNrEJ+GNTFM1tfrmz3h/fD/MMPWfub9uDVpcIh+9wK3rAv9QVw04aFJm3BJg7F7iDM+36yI1d+nM1ZvD6SDg==}
     peerDependencies:
       tailwindcss: ^3.0.0
     dependencies:
-      tailwindcss: 3.4.2
+      tailwindcss: 3.4.3
     dev: true
 
   /@jill64/transform@1.0.2:
@@ -2938,37 +2938,6 @@ packages:
       locate-character: 3.0.0
       magic-string: 0.30.5
       periscopic: 3.1.0
-    dev: true
-
-  /tailwindcss@3.4.2:
-    resolution: {integrity: sha512-1kIzVecynNKMhhX8mPTOwTkkVHupUTMbEvk4n1ByxdM8sQTJ8fE41Y4TdORG6GmiVXHhfZ/++0hiIFJFwfadsA==}
-    engines: {node: '>=14.0.0'}
-    hasBin: true
-    dependencies:
-      '@alloc/quick-lru': 5.2.0
-      arg: 5.0.2
-      chokidar: 3.5.3
-      didyoumean: 1.2.2
-      dlv: 1.1.3
-      fast-glob: 3.3.2
-      glob-parent: 6.0.2
-      is-glob: 4.0.3
-      jiti: 1.21.0
-      lilconfig: 2.1.0
-      micromatch: 4.0.5
-      normalize-path: 3.0.0
-      object-hash: 3.0.0
-      picocolors: 1.0.0
-      postcss: 8.4.38
-      postcss-import: 15.1.0(postcss@8.4.38)
-      postcss-js: 4.0.1(postcss@8.4.38)
-      postcss-load-config: 4.0.2(postcss@8.4.38)
-      postcss-nested: 6.0.1(postcss@8.4.38)
-      postcss-selector-parser: 6.0.13
-      resolve: 1.22.8
-      sucrase: 3.34.0
-    transitivePeerDependencies:
-      - ts-node
     dev: true
 
   /tailwindcss@3.4.3:
