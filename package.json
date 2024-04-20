@@ -1,6 +1,6 @@
 {
   "name": "@jill64/tailwind-reactions",
-  "version": "1.2.19",
+  "version": "1.2.20",
   "description": "🌀 UI effect set for Tailwind CSS",
   "main": "dist/index.js",
   "license": "MIT",
@@ -30,7 +30,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/tailwind-reactions.git",
-    "image": "https://opengraph.githubassets.com/92503cda4f58e8997a4d8067b127b9c9190158badd5c07e0c40a73bc919dcab7/jill64/tailwind-reactions"
+    "image": "https://opengraph.githubassets.com/07f64013382287651af11485f437083f10135bd2fbd19412dc6133c49abcc7fd/jill64/tailwind-reactions"
   },
   "keywords": [
     "effect",
