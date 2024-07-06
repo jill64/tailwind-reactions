@@ -42,8 +42,8 @@ importers:
         specifier: 1.2.42
         version: 1.2.42(jiti@1.21.6)(yaml@2.4.5)
       '@jill64/universal-sanitizer':
-        specifier: 1.2.13
-        version: 1.2.13
+        specifier: 1.2.14
+        version: 1.2.14
       '@sveltejs/adapter-cloudflare':
         specifier: 4.5.0
         version: 4.5.0(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.3(@types/node@20.14.9)))(svelte@4.2.18)(vite@5.3.3(@types/node@20.14.9)))(wrangler@3.63.1(@cloudflare/workers-types@4.20240620.0))
@@ -675,6 +675,9 @@ packages:
   '@jill64/universal-sanitizer@1.2.13':
     resolution: {integrity: sha512-RdyrBqxwAXnM2sXt4WXHjd11U549c8h7j4Bet2MVYe2QbwoqjA85jtk6faMr6AKOKLSgCmgRQUK8eu33eDxrlA==}
 
+  '@jill64/universal-sanitizer@1.2.14':
+    resolution: {integrity: sha512-iLVQEHE5znXbH9UNYau4+HDZpswlZskpVGQqqsY2BRcwe/qagqKTQ3DatmZZHPq2FCJqPlmth+5XyrMKwHU21w==}
+
   '@jridgewell/gen-mapping@0.3.5':
     resolution: {integrity: sha512-IzL8ZoEDIBRWEzlCcRhOaCupYyN5gdIK+Q6fbFdPDg6HqX6jpkItn7DFIpW9LQzXG6Df9sA7+OKnq0qlz/GaQg==}
     engines: {node: '>=6.0.0'}
@@ -1250,6 +1253,9 @@ packages:
 
   dompurify@3.1.5:
     resolution: {integrity: sha512-lwG+n5h8QNpxtyrJW/gJWckL+1/DQiYMX8f7t8Z2AZTPw1esVrqjI63i7Zc2Gz0aKzLVMYC1V1PL/ky+aY/NgA==}
+
+  dompurify@3.1.6:
+    resolution: {integrity: sha512-cTOAhc36AalkjtBpfG6O8JimdTMWNXjiePT2xQH/ppBGi/4uIpmj8eKyIkMJErXWARyINV/sB38yf8JCLF5pbQ==}
 
   domutils@3.1.0:
     resolution: {integrity: sha512-H78uMmQtI2AhgDJjWeQmHwJJ2bLPD3GMmO7Zja/ZZh84wkm+4ut+IUnUdRa8uCGX88DiVx1j6FRe1XfxEgjEZA==}
@@ -2742,6 +2748,13 @@ snapshots:
       dompurify: 3.1.5
       sanitize-html: 2.13.0
 
+  '@jill64/universal-sanitizer@1.2.14':
+    dependencies:
+      '@types/dompurify': 3.0.5
+      '@types/sanitize-html': 2.11.0
+      dompurify: 3.1.6
+      sanitize-html: 2.13.0
+
   '@jridgewell/gen-mapping@0.3.5':
     dependencies:
       '@jridgewell/set-array': 1.2.1
@@ -3357,6 +3370,8 @@ snapshots:
       domelementtype: 2.3.0
 
   dompurify@3.1.5: {}
+
+  dompurify@3.1.6: {}
 
   domutils@3.1.0:
     dependencies:
