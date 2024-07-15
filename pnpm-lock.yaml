@@ -39,8 +39,8 @@ importers:
         specifier: 1.7.15
         version: 1.7.15(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.3(@types/node@20.14.9)))(svelte@4.2.18)(vite@5.3.3(@types/node@20.14.9)))(svelte@4.2.18)
       '@jill64/svelte-tailwind':
-        specifier: 1.2.43
-        version: 1.2.43(jiti@1.21.6)(yaml@2.4.5)
+        specifier: 1.2.44
+        version: 1.2.44(jiti@1.21.6)(yaml@2.4.5)
       '@jill64/universal-sanitizer':
         specifier: 1.3.0
         version: 1.3.0
@@ -499,8 +499,8 @@ packages:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
 
-  '@jill64/svelte-tailwind@1.2.43':
-    resolution: {integrity: sha512-nR3Mc3B1iyhQ9q3xOLJyA/Bo5tNY0fB8imtOAHvFA+7xCBplL5qXNe6ZdNEdEwfxuSX4t2eTLWaZ4M2q+DLZ3A==}
+  '@jill64/svelte-tailwind@1.2.44':
+    resolution: {integrity: sha512-cpboEGbNZP/lcVU5NhFgBab7XP6cqVmJBPVsmBsTryzJgULfGgb57T1yxCK99K0e4jtRhXAjjOd5/aLcD3oY+A==}
 
   '@jill64/svelte-toast@1.3.46':
     resolution: {integrity: sha512-+hCCvtLTqVLacLbV0wATqjvpIehsBrgE82CKL0cGLk6tfmGRyd+Yp+Zjsvm70YMpyqb/LxjAeclKVtCf/LEEdw==}
@@ -1880,6 +1880,11 @@ packages:
     engines: {node: '>=14.0.0'}
     hasBin: true
 
+  tailwindcss@3.4.5:
+    resolution: {integrity: sha512-DlTxttYcogpDfx3tf/8jfnma1nfAYi2cBUYV2YNoPPecwmO3YGiFlOX9D8tGAu+EDF38ryBzvrDKU/BLMsUwbw==}
+    engines: {node: '>=14.0.0'}
+    hasBin: true
+
   text-table@0.2.0:
     resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}
 
@@ -2399,14 +2404,14 @@ snapshots:
       '@sveltejs/kit': 2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.3(@types/node@20.14.9)))(svelte@4.2.18)(vite@5.3.3(@types/node@20.14.9))
       svelte: 4.2.18
 
-  '@jill64/svelte-tailwind@1.2.43(jiti@1.21.6)(yaml@2.4.5)':
+  '@jill64/svelte-tailwind@1.2.44(jiti@1.21.6)(yaml@2.4.5)':
     dependencies:
-      '@jill64/tailwind-grid-auto': 1.3.29(tailwindcss@3.4.4)
-      '@jill64/tailwind-reactions': 1.2.26(tailwindcss@3.4.4)
+      '@jill64/tailwind-grid-auto': 1.3.29(tailwindcss@3.4.5)
+      '@jill64/tailwind-reactions': 1.2.26(tailwindcss@3.4.5)
       autoprefixer: 10.4.19(postcss@8.4.39)
       postcss: 8.4.39
       postcss-load-config: 6.0.1(jiti@1.21.6)(postcss@8.4.39)(yaml@2.4.5)
-      tailwindcss: 3.4.4
+      tailwindcss: 3.4.5
     transitivePeerDependencies:
       - jiti
       - ts-node
@@ -2422,13 +2427,13 @@ snapshots:
     transitivePeerDependencies:
       - '@sveltejs/kit'
 
-  '@jill64/tailwind-grid-auto@1.3.29(tailwindcss@3.4.4)':
+  '@jill64/tailwind-grid-auto@1.3.29(tailwindcss@3.4.5)':
     dependencies:
-      tailwindcss: 3.4.4
+      tailwindcss: 3.4.5
 
-  '@jill64/tailwind-reactions@1.2.26(tailwindcss@3.4.4)':
+  '@jill64/tailwind-reactions@1.2.26(tailwindcss@3.4.5)':
     dependencies:
-      tailwindcss: 3.4.4
+      tailwindcss: 3.4.5
 
   '@jill64/transform@1.0.3': {}
 
@@ -3848,6 +3853,33 @@ snapshots:
       periscopic: 3.1.0
 
   tailwindcss@3.4.4:
+    dependencies:
+      '@alloc/quick-lru': 5.2.0
+      arg: 5.0.2
+      chokidar: 3.6.0
+      didyoumean: 1.2.2
+      dlv: 1.1.3
+      fast-glob: 3.3.2
+      glob-parent: 6.0.2
+      is-glob: 4.0.3
+      jiti: 1.21.6
+      lilconfig: 2.1.0
+      micromatch: 4.0.7
+      normalize-path: 3.0.0
+      object-hash: 3.0.0
+      picocolors: 1.0.1
+      postcss: 8.4.39
+      postcss-import: 15.1.0(postcss@8.4.39)
+      postcss-js: 4.0.1(postcss@8.4.39)
+      postcss-load-config: 4.0.2(postcss@8.4.39)
+      postcss-nested: 6.0.1(postcss@8.4.39)
+      postcss-selector-parser: 6.1.0
+      resolve: 1.22.8
+      sucrase: 3.35.0
+    transitivePeerDependencies:
+      - ts-node
+
+  tailwindcss@3.4.5:
     dependencies:
       '@alloc/quick-lru': 5.2.0
       arg: 5.0.2
