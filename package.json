@@ -30,7 +30,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/tailwind-reactions.git",
-    "image": "https://opengraph.githubassets.com/3d702e4578081daa2ca17302542d49f9b9d3f2ca9aaa2620fb049f7d4ead617d/jill64/tailwind-reactions"
+    "image": "https://opengraph.githubassets.com/04c5df086eae07599386c76c4eba0b92c2c671fdd8e4e60303f4de6214dcdfd7/jill64/tailwind-reactions"
   },
   "keywords": [
     "effect",
@@ -59,7 +59,7 @@
   },
   "prettier": "@jill64/prettier-config",
   "devDependencies": {
-    "@jill64/eslint-config-ts": "1.1.32",
+    "@jill64/eslint-config-ts": "1.1.33",
     "@jill64/playwright-config": "2.4.1",
     "@jill64/prettier-config": "1.0.0",
     "@playwright/test": "1.45.3",
