@@ -29,8 +29,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jill64/tailwind-reactions.git",
-    "image": "https://opengraph.githubassets.com/b78afee1f99049a456a9b0a1a41e9a331b6cddc0c8e859fa6ddeda31fcb87b25/jill64/tailwind-reactions"
+    "url": "git+https://github.com/jill64/tailwind-reactions.git",
+    "image": "https://opengraph.githubassets.com/ee04e283720a10478b8b05238ce7db8f6a238642e2416c952d5f60d6e23e1cad/jill64/tailwind-reactions"
   },
   "keywords": [
     "effect",
