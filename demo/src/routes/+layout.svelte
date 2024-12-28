@@ -4,7 +4,7 @@
   import packageJson from '../../../package.json'
   import '../app.postcss'
 
-  let {children} = $props()
+  let { children } = $props()
 </script>
 
 <Layout {packageJson} {README}>
