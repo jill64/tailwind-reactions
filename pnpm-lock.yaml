@@ -2849,7 +2849,7 @@ snapshots:
     dependencies:
       '@sentry/browser': 8.47.0
       '@sentry/core': 8.47.0
-      magic-string: 0.30.11
+      magic-string: 0.30.17
       svelte: 5.16.2
 
   '@sentry/types@8.9.2': {}
