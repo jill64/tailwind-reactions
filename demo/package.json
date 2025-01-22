@@ -12,7 +12,7 @@
     "@jill64/eslint-config-svelte": "2.0.4",
     "@jill64/npm-demo-layout": "2.0.12",
     "@jill64/universal-sanitizer": "1.4.0",
-    "@jill64/sentry-sveltekit-cloudflare": "2.0.5",
+    "@jill64/sentry-sveltekit-cloudflare": "2.0.6",
     "@jill64/svelte-tailwind": "1.2.77",
     "@sveltejs/adapter-cloudflare": "5.0.1",
     "@sveltejs/kit": "2.15.1",
