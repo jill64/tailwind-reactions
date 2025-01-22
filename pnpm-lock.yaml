@@ -39,8 +39,8 @@ importers:
         specifier: 2.0.6
         version: 2.0.6(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.2)(vite@6.0.11(@types/node@22.10.7)(jiti@1.21.6)(yaml@2.5.1)))(svelte@5.16.2)(vite@6.0.11(@types/node@22.10.7)(jiti@1.21.6)(yaml@2.5.1)))(svelte@5.16.2)
       '@jill64/svelte-tailwind':
-        specifier: 1.2.77
-        version: 1.2.77(jiti@1.21.6)(yaml@2.5.1)
+        specifier: 1.2.78
+        version: 1.2.78(jiti@1.21.6)(yaml@2.5.1)
       '@jill64/universal-sanitizer':
         specifier: 1.4.0
         version: 1.4.0
@@ -540,8 +540,8 @@ packages:
       '@sveltejs/kit': ^2.0.0
       svelte: ^5.0.0
 
-  '@jill64/svelte-tailwind@1.2.77':
-    resolution: {integrity: sha512-AequFXGj3nSi+dCdwYKT9AHtucGuWsrlTcSq+Ek9VXM4vbnp+RLAiTaKyvFd+mb3GKZYTpQ+698Z+1AQXThs4A==}
+  '@jill64/svelte-tailwind@1.2.78':
+    resolution: {integrity: sha512-+EYacQm4nREA+n6Ny/2wLALL/4UmU7anLtyHjPHRSb+9xfosdL0VApYMik8fhc50/X338WxqFmYQiVruwzKxoA==}
 
   '@jill64/svelte-toast@2.1.5':
     resolution: {integrity: sha512-9Xk49WjzqkTaZPVdZNjecd+eqdzcPElitYLQSJvgSwNOKndtV05mC3vW3Gpj4wHBlmf1qBXh9Q7fug71X69IRQ==}
@@ -2418,7 +2418,7 @@ snapshots:
       '@sveltejs/kit': 2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.2)(vite@6.0.11(@types/node@22.10.7)(jiti@1.21.6)(yaml@2.5.1)))(svelte@5.16.2)(vite@6.0.11(@types/node@22.10.7)(jiti@1.21.6)(yaml@2.5.1))
       svelte: 5.16.2
 
-  '@jill64/svelte-tailwind@1.2.77(jiti@1.21.6)(yaml@2.5.1)':
+  '@jill64/svelte-tailwind@1.2.78(jiti@1.21.6)(yaml@2.5.1)':
     dependencies:
       '@jill64/tailwind-grid-auto': 1.4.1(tailwindcss@3.4.17)
       '@jill64/tailwind-reactions': 1.3.1(tailwindcss@3.4.17)
